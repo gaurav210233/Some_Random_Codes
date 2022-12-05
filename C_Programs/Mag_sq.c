@@ -1,3 +1,4 @@
+//Program to check whether the entered matrix is magic-square or not
 #include<stdio.h>
 #include<stdbool.h>
 int main()
@@ -53,7 +54,7 @@ int main()
             goto result;
         }
         Sum[2] = Sum[3] = 0;
-    }
+     }
 
     result:
     if(flag == true)printf("It\'s a Magic Square");
