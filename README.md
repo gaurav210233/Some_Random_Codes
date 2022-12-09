@@ -1,1 +1,1 @@
-- This repo contains some of the codes completely written from scratch by myself
+- This repo contains some of the codes completely written from scratch by myself.
