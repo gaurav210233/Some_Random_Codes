@@ -18,30 +18,24 @@ int main()
 			{	buff[0][count]=i; // Save row no. of element 
 				buff[1][count]=j; // Save column no. of element
 				count++;
-			}
-			
+			}		
 		}
 	}
 	printf("\n");
 	int Outarr[3][count];
 	
 	for(int j=0;j<count;j++)
-		{
-			Outarr[0][j] = buff[0][j]; // Setting row no.
-			Outarr[1][j] = buff[1][j]; // Setting column no.
-			Outarr[2][j] = Inarr[buff[0][j]][buff[1][j]]; // Setting value at that position
-			
-			
-		}
+	{
+		Outarr[0][j] = buff[0][j]; // Setting row no.
+		Outarr[1][j] = buff[1][j]; // Setting column no.
+		Outarr[2][j] = Inarr[buff[0][j]][buff[1][j]]; // Setting value at that position
+	}
 		
-		for(int i=0;i<3;i++)
+	for(int i=0;i<3;i++)
 	{	
-		
 		for(int j=0;j<count;j++)
 		{
 			printf("%d ",Outarr[i][j]);
-			
-			
 		}
 		printf("\n");
 	}
